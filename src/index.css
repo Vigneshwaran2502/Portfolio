@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+body {
+  background-color: #000;
+  color: white;
+}
+
+@theme {
+  --color-neon-green: #00ff88;
+  --color-neon-blue: #00d4ff;
+  --color-neon-purple: #bf00ff;
+  --color-dark-900: #050510;
+  --color-dark-800: #0a0a1a;
+  --color-dark-700: #0f0f25;
+  --color-dark-600: #16162a;
+  --color-glass: rgba(255, 255, 255, 0.05);
+  --font-family-sans: 'Outfit', 'Inter', sans-serif;
+  --font-family-mono: 'JetBrains Mono', monospace;
+}
