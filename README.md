@@ -23,18 +23,6 @@ A futuristic, high-performance portfolio website built to showcase my projects, 
 - **Icons:** [React Icons](https://react-icons.github.io/react-icons/)
 - **Hosting/Deployment:** GitHub Actions + Vercel / Netlify
 
-## 📸 Screenshots
-
-*(Replace these placeholder image paths with actual screenshots uploaded to your GitHub repository after you commit! I recommend adding them into a `public/screenshots` folder.)*
-
-| Hero Section | Projects Layout |
-|:---:|:---:|
-| <img src="./public/assets/screenshot-hero.png" width="400" alt="Hero Section"> | <img src="./public/assets/screenshot-projects.png" width="400" alt="Projects Layout"> |
-
-| Interactive Skills | Professional Timeline |
-|:---:|:---:|
-| <img src="./public/assets/screenshot-skills.png" width="400" alt="Skills Grid"> | <img src="./public/assets/screenshot-experience.png" width="400" alt="Experience Timeline"> |
-
 ## 🚀 Local Installation
 
 1. **Clone the repository:**
