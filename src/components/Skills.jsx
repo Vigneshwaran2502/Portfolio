@@ -71,16 +71,20 @@ const SkillPill = ({ skill, index }) => (
       coneSpread={25}
       animated={false}
       colors={[skill.color, skill.color, skill.color]}
-      className="w-full h-[56px] px-2 flex items-center justify-center gap-2.5 transition-all duration-300 cursor-target !border-0"
+      className="w-full h-[56px] transition-all duration-300 cursor-target !border-0"
       style={{ boxShadow: `0 4px 20px ${skill.color}15` }}
     >
-      <span
-        className="text-xl transition-transform duration-300"
-        style={{ color: skill.color, filter: `drop-shadow(0 0 8px ${skill.color}80)` }}
-      >
-        {skill.icon}
-      </span>
-      <span className="text-xs sm:text-sm font-bold text-white tracking-wide text-center leading-tight truncate">{skill.name}</span>
+      <div className="w-full h-full px-2 flex flex-row items-center justify-center gap-2.5">
+        <span
+          className="text-xl transition-transform duration-300 flex-shrink-0"
+          style={{ color: skill.color, filter: `drop-shadow(0 0 8px ${skill.color}80)` }}
+        >
+          {skill.icon}
+        </span>
+        <span className="text-xs sm:text-sm font-bold text-white tracking-wide text-center leading-tight truncate">
+          {skill.name}
+        </span>
+      </div>
     </BorderGlow>
   </motion.div>
 );
